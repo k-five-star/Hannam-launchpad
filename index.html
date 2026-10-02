@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#11120f"><title>한남체 — 밈 사운드패드</title><link rel="stylesheet" href="style.css"></head>
+<body><main><header><a class="brand" href="./">HANNAM<span>LAUNCHPAD / VOL. 01</span></a><span class="badge">● 소리 켜고 드가자</span></header>
+<section class="intro"><div><span class="eyebrow">INTERNET SOUNDS, AT YOUR FINGERTIPS</span><h1>예?<br>엄. <em>비트 드가자.</em></h1><p>말로만 하던 밈, 이제 손끝으로.<br>패드를 누르거나 키보드로 나만의 조합을 만들어 봐.</p></div><div class="stamp">예?<br><span>PLAY IT LOUD ↗</span></div></section>
+<div class="toolbar"><span>01 — SOUND BANK</span><label>볼륨 <input id="volume" type="range" min="0" max="1" step="0.05" value="0.8" aria-label="볼륨"></label><button id="stop" class="small">전체 정지 ↙</button></div>
+<section id="pads" class="pads" aria-label="사운드패드"></section>
+<section class="sequencer"><div class="seq-head"><div><span class="eyebrow">02 — MAKE A LOOP</span><h2>아뇨아뇨, 박자 맞춰서.</h2></div><div class="controls"><label>BPM <input id="bpm" type="number" min="60" max="180" value="100"></label><button id="play">▶ 루프 시작</button><button id="clear" class="small">비우기</button></div></div><p class="hint">각 칸을 눌러 소리를 바꿔 봐. 빈 칸 → 예? → 엄. → … → 빈 칸</p><div id="steps" class="steps" aria-label="8단계 시퀀서"></div></section>
+<footer><span>키보드 Q W E R / A S D F / Z X C V · ESC 정지</span><span>초안 · 합성음성 기본 제공 / 파일 업로드로 교체</span></footer><p id="status" role="status" aria-live="polite">준비됐어. 첫 패드부터 눌러 봐.</p></main><script src="app.js"></script></body></html>
